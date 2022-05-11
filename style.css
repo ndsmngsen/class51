@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(112, 177, 106);
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(100, 1, 139);
+    display: flow-root;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid;
+}
+.grid2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+a{
+    color:rgb(112, 177, 106)
+}
+
+body{
+    background-color: rgb(78, 78, 151);
+}
